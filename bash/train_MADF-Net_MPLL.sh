@@ -9,7 +9,7 @@ python  /root/autodl-tmp/multi_phase/train_7metrics_MPLL_GY.py \
 --test_path \
 /root/autodl-tmp/data_prepare_MPLL/test \
 --module \
-networks.LiNet.LiNet \
+networks.MADF-Net.MADF-Net \
 --dataset \
 Multiphase \
 --crop_inference \
