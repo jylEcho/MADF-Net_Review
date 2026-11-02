@@ -4,6 +4,8 @@ Research code for multi-phase contrast-enhanced CT segmentation of the liver and
 
 The network takes arterial (ART/A), portal venous (PV/V), and delayed (DL/D) phase images as inputs and produces segmentation predictions for three classes: background, liver, and tumor.
 
+### Checkpoint: https://drive.google.com/drive/folders/1UdQCsSocSBoJpXvZBrKOCz34Hn_Ja6An?usp=drive_link
+
 ## Repository Structure
 
 ```text
