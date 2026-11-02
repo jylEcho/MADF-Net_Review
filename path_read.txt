@@ -1,0 +1,2 @@
+2d原始文件保存路径: /home/image006/multi-phase/dataset_2d/
+每个病人的单期(v): /home/image006/multi-phase/dataset_2d/dataset_v/
