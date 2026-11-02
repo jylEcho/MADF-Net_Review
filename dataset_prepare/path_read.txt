@@ -1,0 +1,11 @@
+2d原始文件保存路径: /home/image006/multi-phase/dataset_2d/
+每个病人的单期(v): /home/image006/multi-phase/dataset_2d/dataset_v/
+
+
+
+dataset_prepare的运行顺序：
+0. 得到selected_patient.txt以及将test文件放在'/home/image006/multi-phase/dataset_2d/dataset_v/test/'下
+1. 根据第0步的txt生成train的liverbox： generate_liverbox.py
+2. 生成训练数据：rawdata_2D_train.py
+3. 生成train.txt和test_vol.txt ： get_txt.py
+4. 根据nnunet等其他模型生成test的liverbox, 然后运行 rawdata_2D_test.py 生成测试数据
